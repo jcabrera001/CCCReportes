@@ -1,0 +1,120 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="General.master.vb" Inherits="CCCReportes.General" %>
+
+<%@ Register assembly="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 274px;
+        }
+        .auto-style2 {
+            width: 833px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+<table style="width:100%;">
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>
+                        <dx:ASPxButton ID="CmdVolver" runat="server" Text="Volver al sistema" Visible="False">
+                        </dx:ASPxButton>
+                    </td>
+                </tr>
+            </table>
+            <table style="width: 100%;">
+                <tr>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">
+                        <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" EnableTheming="True" Theme="Metropolis">
+                            <Groups>
+                                <dx:NavBarGroup Text="Planilla">
+                                    <Items>
+                                        <dx:NavBarItem Text="Boleta Pago Jefes de Corte" NavigateUrl="~/Formularios/FrmGenBoletasJefesCorteCCC.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Boleta Pago Supervisores" NavigateUrl="~/Formularios/FrmGenBoletasSupervisoresCCC.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Resumen de Planilla por Supervisor" NavigateUrl="~/Formularios/FrmGenResumenPlanillaSupervisoresSemana.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Detalle de Planilla de Supervisores" NavigateUrl="~/Formularios/FrmGenDetallePlanillaSupervisores.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Boleta Pago Corteros" NavigateUrl="~/Formularios/FrmGenBoletaPagoCorteros.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Detalle de Planilla de Corteros" NavigateUrl="~/Formularios/FrmGenDetallePlanillaCorteros.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem NavigateUrl="~/Formularios/FrmGenAlimentacionDiferencialNegativo.aspx" Text="Detalle de Alimentacion con Diferencia Negativo">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem NavigateUrl="~/Formularios/FrmGenDetallePlanillaSupervisoresRendimiento.aspx" Text="Detalle de Planilla de Supervisores por Rendimiento">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem NavigateUrl="~/Formularios/FrmGenDetPlaSupxRendAgrupadoxFrente.aspx" Text="Detalle Planilla de Supervisores x Frente x Rendimiento">
+                                        </dx:NavBarItem>
+                                    </Items>
+                                </dx:NavBarGroup>
+                                <dx:NavBarGroup Text="Reportes Generales">
+                                    <Items>
+                                        <dx:NavBarItem Text="Resumen Corte Semanal por Finca y Lote" NavigateUrl="~/Formularios/FrmGenResCorteSemanalxFincaLote.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Distribuido Corte Semanal por Supervisor" NavigateUrl="~/Formularios/FrmGenResCorteSemanalxSupervisor.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Diario de Metros Cortados (Campo)" NavigateUrl="~/Formularios/FrmGenDiarioMetrosCortados.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Desglose de Monedas por Frente" NavigateUrl="~/Formularios/FrmGenDesgloseModenaxFrente.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Comparativo de Precio Sugerido/Real por Semana" NavigateUrl="~/Formularios/FrmGenComparativoPrecioRealSugerido.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Text="Lotes Comenzados por Semana (Tipo Corte)" Visible="False">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem NavigateUrl="~/Formularios/FrmGenAlimentacionCorteros.aspx" Text="Reporte Alimentacion Corteros">
+                                        </dx:NavBarItem>
+                                    </Items>
+                                </dx:NavBarGroup>
+                            </Groups>
+                        </dx:ASPxNavBar>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>     
+    </div>
+    </form>
+</body>
+</html>

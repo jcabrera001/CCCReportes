@@ -1,0 +1,1814 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CCCReportes
+</name>
+</assembly>
+<members>
+<member name="T:CCCReportes.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:CCCReportes.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:CCCReportes.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:CCCReportes.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:CCCReportes.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:CCCReportes.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="T:CCCReportes.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:CCCReportes.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:CCCReportes.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1.spPruebasCrystalReportWebDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1.spPruebasCrystalReportWebRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1.spPruebasCrystalReportWebRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1TableAdapters.spPruebasCrystalReportWebTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CCCReportes.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(CCCReportes.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CCCReportes.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(CCCReportes.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CCCReportes.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(CCCReportes.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CCCReportes.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CCCReportes.DataSet1TableAdapters.TableAdapterManager.UpdateAll(CCCReportes.DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CCCReportes.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:CCCReportes._Default._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._CmdVolver">
+<summary>
+Control CmdVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._TxtUsuario">
+<summary>
+Control TxtUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._TxtContrasena">
+<summary>
+Control TxtContrasena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._CmbBDD">
+<summary>
+Control CmbBDD.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._LblErrores">
+<summary>
+Control LblErrores.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._CmdIngresar">
+<summary>
+Control CmdIngresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes._Default._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionCorteros._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._btnDescargar">
+<summary>
+Control btnDescargar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletaPagoCorteros._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasJefesCorteCCC._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenBoletasSupervisoresCCC._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._cbxFrenteID">
+<summary>
+Control cbxFrenteID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenComparativoPrecioRealSugerido._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDesgloseModenaxFrente._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaCorteros._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisores._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetallePlanillaSupervisoresRendimiento._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDetPlaSupxRendAgrupadoxFrente._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._cbxFrenteID">
+<summary>
+Control cbxFrenteID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._Label5">
+<summary>
+Control Label5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._txtCantLineas">
+<summary>
+Control txtCantLineas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenDiarioMetrosCortados._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._cbxFrenteID">
+<summary>
+Control cbxFrenteID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxFincaLote._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._cbxFrenteID">
+<summary>
+Control cbxFrenteID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResCorteSemanalxSupervisor._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmGenResumenPlanillaSupervisoresSemana._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.General._head">
+<summary>
+Control head.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.General._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.General._CmdVolver">
+<summary>
+Control CmdVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.General._ASPxNavBar1">
+<summary>
+Control ASPxNavBar1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.General._ContentPlaceHolder1">
+<summary>
+Control ContentPlaceHolder1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
