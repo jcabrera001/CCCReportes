@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Formularios\FrmBoletaCorteFiltroFrente.aspx" />
     <Content Include="Formularios\FrmGenAlimentacionCorteros.aspx" />
     <Content Include="Formularios\FrmGenAlimentacionDiferencialNegativo.aspx" />
     <Content Include="Formularios\FrmGenBoletaPagoCorteros.aspx" />
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmBoletaCorteFiltroFrente.aspx.designer.vb">
+      <DependentUpon>FrmBoletaCorteFiltroFrente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmBoletaCorteFiltroFrente.aspx.vb">
+      <DependentUpon>FrmBoletaCorteFiltroFrente.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Formularios\FrmGenAlimentacionCorteros.aspx.designer.vb">
@@ -318,6 +326,18 @@
       <DependentUpon>crAlimentacionCorteros.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reportes\crBoletaCortero.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crBoletaCortero.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Detalle de Planilla de Supervisores.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Detalle de Planilla de Supervisores.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reportes\Desglose de Moneda por Frente.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -336,10 +356,10 @@
       <DependentUpon>Detalle de Planilla de Supervisores x Rendimiento.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Reportes\Detalle de Planilla de Supervisores.vb">
+    <Compile Include="Reportes\Detalle de Planilla de Supervisores Old.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Detalle de Planilla de Supervisores.rpt</DependentUpon>
+      <DependentUpon>Detalle de Planilla de Supervisores Old.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reportes\Detalle de Planillas de Cortero.vb">
@@ -406,6 +426,14 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>crAlimentacionCorteros.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\crBoletaCortero.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crBoletaCortero.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Detalle de Planilla de Supervisores.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Detalle de Planilla de Supervisores.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Desglose de Moneda por Frente.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Desglose de Moneda por Frente.vb</LastGenOutput>
@@ -418,9 +446,9 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Detalle de Planilla de Supervisores x Rendimiento.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reportes\Detalle de Planilla de Supervisores.rpt">
+    <EmbeddedResource Include="Reportes\Detalle de Planilla de Supervisores Old.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Detalle de Planilla de Supervisores.vb</LastGenOutput>
+      <LastGenOutput>Detalle de Planilla de Supervisores Old.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Detalle de Planillas de Cortero.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

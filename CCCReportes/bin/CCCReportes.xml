@@ -190,6 +190,141 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._txtZafraID">
+<summary>
+Control txtZafraID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._txtPeriodoID">
+<summary>
+Control txtPeriodoID.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label5">
+<summary>
+Control Label5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._cmbFrente">
+<summary>
+Control cmbFrente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnProcesarReporte">
+<summary>
+Control btnProcesarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._txtCantidadCopias">
+<summary>
+Control txtCantidadCopias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnExportarReporte">
+<summary>
+Control btnExportarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnDescargar">
+<summary>
+Control btnDescargar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnImprimirReporte">
+<summary>
+Control btnImprimirReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._rbFormat">
+<summary>
+Control rbFormat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._CrystalReportViewer1">
+<summary>
+Control CrystalReportViewer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label1">
 <summary>
 Control Label1.

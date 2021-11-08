@@ -73,6 +73,8 @@
                                         </dx:NavBarItem>
                                         <dx:NavBarItem Text="Boleta Pago Corteros" NavigateUrl="~/Formularios/FrmGenBoletaPagoCorteros.aspx">
                                         </dx:NavBarItem>
+                                        <dx:NavBarItem NavigateUrl="~/Formularios/FrmBoletaCorteFiltroFrente.aspx" Text="Boleta Pago Corteros Por Frente de Corte">
+                                        </dx:NavBarItem>
                                         <dx:NavBarItem Text="Detalle de Planilla de Corteros" NavigateUrl="~/Formularios/FrmGenDetallePlanillaCorteros.aspx">
                                         </dx:NavBarItem>
                                         <dx:NavBarItem NavigateUrl="~/Formularios/FrmGenAlimentacionDiferencialNegativo.aspx" Text="Detalle de Alimentacion con Diferencia Negativo">
