@@ -39,18 +39,18 @@ CCCReportes
 </member>
 <member name="T:CCCReportes.My.Resources.Resources">
 <summary>
-  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 <member name="P:CCCReportes.My.Resources.Resources.ResourceManager">
 <summary>
-  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+  Returns the cached ResourceManager instance used by this class.
 </summary>
 </member>
 <member name="P:CCCReportes.My.Resources.Resources.Culture">
 <summary>
-  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
-  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
 </summary>
 </member>
 <member name="T:CCCReportes.DataSet1">
@@ -120,164 +120,299 @@ Used to sort self-referenced table's rows
 </member>
 <member name="F:CCCReportes._Default._form1">
 <summary>
-Control form1.
+form1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._CmdVolver">
 <summary>
-Control CmdVolver.
+CmdVolver control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._TxtUsuario">
 <summary>
-Control TxtUsuario.
+TxtUsuario control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._TxtContrasena">
 <summary>
-Control TxtContrasena.
+TxtContrasena control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._CmbBDD">
 <summary>
-Control CmbBDD.
+CmbBDD control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._LblErrores">
 <summary>
-Control LblErrores.
+LblErrores control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._CmdIngresar">
 <summary>
-Control CmdIngresar.
+CmdIngresar control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes._Default._HyperLink1">
 <summary>
-Control HyperLink1.
+HyperLink1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._txtZafraID">
+<summary>
+txtZafraID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._txtPeriodoID">
+<summary>
+txtPeriodoID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._cmbFrente">
+<summary>
+cmbFrente control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnProcesarReporte">
+<summary>
+btnProcesarReporte control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._txtCantidadCopias">
+<summary>
+txtCantidadCopias control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnExportarReporte">
+<summary>
+btnExportarReporte control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnDescargar">
+<summary>
+btnDescargar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._btnImprimirReporte">
+<summary>
+btnImprimirReporte control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._rbFormat">
+<summary>
+rbFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CCCReportes.FrmBoletaCorteFiltroFrente._CrystalReportViewer1">
+<summary>
+CrystalReportViewer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label1">
 <summary>
-Control Label1.
+Label1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._txtZafraID">
 <summary>
-Control txtZafraID.
+txtZafraID control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label2">
 <summary>
-Control Label2.
+Label2 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._txtPeriodoID">
 <summary>
-Control txtPeriodoID.
+txtPeriodoID control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._btnProcesarReporte">
 <summary>
-Control btnProcesarReporte.
+btnProcesarReporte control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._Label4">
 <summary>
-Control Label4.
+Label4 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._btnImprimirReporte">
 <summary>
-Control btnImprimirReporte.
+btnImprimirReporte control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._rbFormat">
 <summary>
-Control rbFormat.
+rbFormat control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._btnExportarReporte">
 <summary>
-Control btnExportarReporte.
+btnExportarReporte control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionCorteros._CrystalReportViewer1">
 <summary>
-Control CrystalReportViewer1.
+CrystalReportViewer1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:CCCReportes.FrmGenAlimentacionDiferencialNegativo._Label1">
